@@ -1,3 +1,25 @@
 .page {
     background-color: cornsilk;
 }
+.left {
+    border-right: black;
+    border-style: dashed;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+.right {
+    border-left: gray;
+    border-style: dotted;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+.gif {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

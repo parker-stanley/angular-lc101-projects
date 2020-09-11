@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-
+  gif: string = "https://media.giphy.com/media/dlMIwDQAxXn1K/giphy.gif";
 }
