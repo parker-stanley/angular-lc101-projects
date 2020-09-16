@@ -35,7 +35,7 @@
     <hr>
     <div class = 'centered'>
         <button (click)="selected = false">Clear Data & Image</button>
-        <button (click)="addCrew(selected)">Send on Mission</button>
+        <button (click)="addCrew(selected)" *ngIf="selected">Send on Mission</button>
     </div>
 </div>
 
